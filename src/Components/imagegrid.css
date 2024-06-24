@@ -1,0 +1,40 @@
+
+.image-container {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .image-container.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .image-wrapper {
+    position: relative;
+    height: 300px; 
+    transition: filter 0.3s ease;
+  }
+  
+  .image-wrapper:hover {
+    filter: brightness(60%);
+  }
+  
+  
+  .image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .p-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .p-container.visible {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,30 @@
+.fontapply{
+    font-family: cursive;
+}
+.galleryhover:hover{
+   filter: brightness(70%);
+   
+   
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
+.font_fredoka{
+  font-family: "Fredoka", sans-serif;
+}

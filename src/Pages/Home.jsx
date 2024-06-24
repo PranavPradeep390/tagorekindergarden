@@ -58,7 +58,7 @@ function Home() {
       fetchEvents();
   }, []);
 
-  const limitedImages = data.slice(0, 8);
+  const limitedImages = data.slice(0, 6);
 
 
       const [isVisible, setIsVisible] = useState(false);
@@ -290,7 +290,7 @@ function Home() {
             <div className='absolute flex flex-col items-center'>
               <MilitaryTechIcon style={{color:"white"}}/>
               <p className='text-5xl'>
-                {inView && <CountUp className='fontapply font-semibold ' end={4} duration={4} />}
+                {inView && <CountUp className='fontapply font-semibold ' end={2} duration={4} />}
               </p>
               <p className='font-light' style={{fontSize:"12px"}}>Years of <br />Excellence</p>
             </div>

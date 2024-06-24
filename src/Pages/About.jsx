@@ -34,11 +34,11 @@ function About() {
    {/* about us */}
  <div className='flex-col bg-[#e3867f]' style={{height:"300px",display:"flex",justifyContent:"center",alignItems:'center'}}>
     <h1 
-    className='text-4xl md:text-6xl uppercase font-extrabold mb-2 md:mb-4 text-white ' style={{fontFamily:'cursive'}}>About Us
+    className='text-4xl md:text-6xl uppercase font-extrabold mb-2 md:mb-4 text-white font_fredoka' >About Us
     </h1>
   
     <h1
-    className='text-xl p-3 bg-yellow-600 rounded-xl text-white  'style={{fontFamily:'cursive'}}><b>Home - About us</b>
+    className='text-xl p-3 bg-yellow-600 rounded-xl text-white font_fredoka '><b>Home - About us</b>
     </h1>
   </div>
 
@@ -122,7 +122,7 @@ function About() {
             <div className='absolute flex flex-col items-center'>
               <MilitaryTechIcon style={{color:"white"}}/>
               <p className='text-5xl'>
-                {inView && <CountUp className='fontapply font-semibold ' end={4} duration={4} />}
+                {inView && <CountUp className='fontapply font-semibold ' end={2} duration={4} />}
               </p>
               <p className='font-light' style={{fontSize:"12px"}}>Years of <br />Excellence</p>
             </div>
@@ -207,7 +207,7 @@ function About() {
        </div>
   
        <div className='md:w-1/2 p-5 text-center col  border-l-4  border-b-4 border-red-500 pb-8 py-10 border-dashed rounded-3xl bg-slate-100' >
-         <h1 className=' text-center sm:text-left text-xl md:text-3xl pb-5   text-[#12265a] font-semibold font_fredoka'>We Learn Smart Way To Build Bright Futute For Your Children</h1>
+         <h1 className=' text-center sm:text-left text-xl md:text-3xl pb-5   text-[#12265a] font-semibold font_fredoka'>We Learn Smart Way To Build Bright Future For Your Children</h1>
          <p className='text-justify leading-7 font_fredoka'> At Tagore Kindergarten , every child is recognized as a budding star, brimming with potential for learning and action. we adopts a hybrid curriculum, blending Montessori techniques with modern educational methods to promote holistic child development. Each child is seen as a budding star with immense potential for learning and action.<br /><br/>
         The skilled educators at Tagore Kindergarten are dedicated to nurturing these young minds, preparing them to be conscientious and capable citizens of the future.
          </p>

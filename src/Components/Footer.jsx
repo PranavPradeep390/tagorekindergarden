@@ -83,7 +83,7 @@ function Footer() {
               <p className='font_fredoka font-light'>Terms & Conditions Privacy Policy</p>
             </div>
             <div>
-              <button className='w-12 h-10 rounded-lg bg-blue-500 absolute right-4 bottom-7 font_fredoka' onClick={scrollToTop}>
+              <button className='w-12 h-10 rounded-lg bg-green-600 absolute right-4 bottom-7 font_fredoka' onClick={scrollToTop}>
               <NavigationOutlinedIcon/>
               </button>
             </div>

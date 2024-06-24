@@ -1,11 +1,12 @@
 import React from 'react';
 import userdummy from '../Assets/userdummy.webp'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import principal from '../Assets/principal.png'
 
 const dummyData = [
   {
     id: 1,
-    imageUrl:userdummy,
+    imageUrl:principal,
     title: 'Bushra B.A.',
     description: 'Principal',
     phone: 7736965145,

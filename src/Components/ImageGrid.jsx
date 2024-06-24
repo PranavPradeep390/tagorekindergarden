@@ -43,7 +43,7 @@ const [currentPage, setCurrentPage] = useState(1);
         <div className='flex flex-col items-center'>
             <div className='flex flex-wrap gap-6 items-center justify-center'>
                 {currentItems.map((event, index) => (
-                    <div className='w-[300px] h-[345px] md:w-[300px] md:h-[300px] hover:border-dashed hover:border-slate-300 border-8 border-white-900 rounded-xl' key={index}>
+                    <div className='w-[300px] h-[280px] md:w-[300px] md:h-[280px] hover:border-dashed hover:border-slate-300 border-8 border-white-900 rounded-xl' key={index}>
 
     <img className='w-full h-full rounded' src={`https://admin.tagorekindergarten.com/uploads/gallary/${event.name}`} alt={event.id} />
 

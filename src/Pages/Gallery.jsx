@@ -12,11 +12,11 @@ function Gallery() {
 <div className='flex-col bg-[#e3867f]' style={{height:"300px",display:"flex",justifyContent:"center",alignItems:'center'}}>
  
  <h1 
-  className='text-4xl md:text-6xl uppercase font-extrabold mb-2 md:mb-4 text-white ' style={{fontFamily:'cursive'}}>gallery
+  className='text-4xl md:text-6xl uppercase font-extrabold mb-2 md:mb-4 text-white font_fredoka'>gallery
   </h1>
 
   <h1
-  className='text-xl p-3 bg-yellow-600 rounded-xl text-white  'style={{fontFamily:'cursive'}}><b>Home - Gallery</b>
+  className='text-xl p-3 bg-yellow-600 rounded-xl text-white font_fredoka '><b>Home - Gallery</b>
   </h1>
   </div>
 <div className='px-24 py-8'>

@@ -80,7 +80,8 @@ function Contact() {
               <p className='font_fredoka'>info@tagorekindergarten.com</p></div>
           </div>
 
-          <div className='col-lg-9 lg:p-20 p-5'>
+          <div className='col-lg-9 lg:p-20 p-5 w-[500px]'>
+            
             <div className='row pb-5'>
               <input
                 className='w-full m-1 p-2 rounded-xl outline-none'
@@ -95,7 +96,7 @@ function Contact() {
 
             <div className='row pb-5'>
               <input
-                className='m-1 p-2 rounded-xl outline-none'
+                className='w-full m-1 p-2 rounded-xl outline-none'
                 type='tele'
                 name='phone'
                 placeholder='Phone'
@@ -103,8 +104,12 @@ function Contact() {
                 onChange={handleChange}
                 required
               />
-              <input
-                className='mt-5 m-1 p-2 rounded-xl outline-none'
+            
+            </div>
+
+            <div className='row pb-5'>
+            <input
+                className='w-full m-1 p-2 rounded-xl outline-none'
                 type='email'
                 name='email'
                 placeholder='Email'
@@ -112,6 +117,7 @@ function Contact() {
                 onChange={handleChange}
                 required
               />
+            
             </div>
 
             <div>

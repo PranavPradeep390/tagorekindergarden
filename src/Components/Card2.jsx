@@ -2,6 +2,10 @@ import React from 'react';
 import userdummy from '../Assets/userdummy.webp'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import principal from '../Assets/principal.png'
+import monisha from '../Assets/monisha.jpeg'
+import saleema from '../Assets/saleema.jpeg'
+import nisa from '../Assets/nisa.jpeg'
+
 
 const dummyData = [
   {
@@ -15,7 +19,7 @@ const dummyData = [
   },
   {
     id: 2,
-    imageUrl: userdummy,
+    imageUrl: monisha,
     title: 'Monisha Suresh',
     description: 'Teacher',
     phone: 7994598832,
@@ -24,7 +28,7 @@ const dummyData = [
   },
   {
     id: 3,
-    imageUrl:userdummy,
+    imageUrl:saleema,
     title: 'Saleema L',
     description: 'Teacher',
     phone: 8714834800,
@@ -33,7 +37,7 @@ const dummyData = [
   },
   {
     id: 4,
-    imageUrl: userdummy,
+    imageUrl: nisa,
     title: 'Nisa Naser',
     description: 'Teacher',
     phone: 9847554742,
@@ -61,11 +65,11 @@ function Card() {
             </h1>
             <p className="text-gray-800 mb-4 text-center font_fredoka">{data.description}</p>
 
-          <div className='hidden md:inline-block h-[120px]'>
+          <div className=' h-[120px] text-center'>
               <p className="font_fredoka text-[#12265a] mb-4 text-center"><LocalPhoneIcon/> {data.phone}</p>
               <p className="font_fredoka text-gray-700 mb-4 ms-5 "><span  className='text-[#12265a]'>Qualification : </span>{data.qualification}</p>
           </div>
-                <p className="font_fredoka text-gray-700 mb-4 ms-5 hidden md:inline-block">
+                <p className="font_fredoka text-gray-700 mb-4 ms-5 text-center ">
                 <span className='text-[#12265a]' >Experience : </span>{data.experience}</p>
           </div>
         </div>

@@ -329,7 +329,7 @@ function Home() {
             <div className='absolute flex flex-col items-center'>
               <EmojiEventsIcon style={{color:"white"}}/>
               <p className='text-5xl'>
-              {inView && <CountUp className='fontapply font-semibold' end={10} duration={4} />}
+              {inView && <CountUp className='fontapply font-semibold' end={6} duration={4} />}
               </p>
               <p className='font-light' style={{fontSize:"12px"}}>Total <br /> Award</p>
             </div>

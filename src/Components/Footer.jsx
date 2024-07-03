@@ -3,9 +3,8 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import NavigationOutlinedIcon from '@mui/icons-material/NavigationOutlined';
 import footer1 from '../Assets/footer1.png'
-
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 function Footer() {
 
@@ -84,7 +83,7 @@ function Footer() {
             </div>
             <div>
               <button className='w-12 h-10 rounded-lg bg-green-600 absolute right-4 bottom-7 font_fredoka' onClick={scrollToTop}>
-              <NavigationOutlinedIcon/>
+              <ArrowUpwardIcon/>
               </button>
             </div>
           </div> 
